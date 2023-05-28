@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const codes = document.getElementsByClassName('otp');
+const codes = document.getElementsByClassName('code');
 
     for (let i = 0; i < codes.length; i++) {
       codes[i].addEventListener('input', function() {
